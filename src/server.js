@@ -3,7 +3,7 @@ const staticfile = require('./route/staticroute');
 const Hapi = require('hapi');
 
 const server = new Hapi.Server();
-server.connection({ port: 5000 });
+server.connection({ port: process.env.PORT || 5000 });
 
 server.start((err) => {
 
