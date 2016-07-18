@@ -19,5 +19,13 @@
   "dependencies": {
     "hapi": "^13.5.0",
     "inert": "^4.0.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RichAWarren/suggestr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RichAWarren/suggestr/issues"
+  },
+  "homepage": "https://github.com/RichAWarren/suggestr#readme"
 }
