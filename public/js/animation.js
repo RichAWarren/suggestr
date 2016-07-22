@@ -1,4 +1,4 @@
-let loginClick = false;
+var loginClick = false;
 
 document.getElementById('login').addEventListener('click', function () {
     if (loginClick === false) {

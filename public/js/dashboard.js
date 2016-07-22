@@ -1,4 +1,4 @@
-const array = [{
+var array = [{
     url: "https://image.tmdb.org/t/p/original/7u3pxc0K1wx32IleAkLv78MKgrw.jpg",
     summary: "Thomas A. Anderson is a man living two lives. By day he is an average computer programmer and by night a malevolent",
     title: "The Matrix"
@@ -23,7 +23,7 @@ function updateFilms() {
     const imagesContainer = document.getElementsByClassName('filmContainer')
     const titles = document.getElementsByClassName('filmTitle')
     const summaries = document.getElementsByClassName('summary')
-    for (let i = 0; i < array.length; i ++) {
+    for (var i = 0; i < array.length; i ++) {
         imagesContainer[i].style.backgroundImage = 'url(' + array[i].url + ')'
         titles[i].innerHTML = array[i].title
         summaries[i].innerHTML = array[i].summary
