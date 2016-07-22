@@ -17,8 +17,10 @@
     "eslint-plugin-react": "^5.2.2"
   },
   "dependencies": {
+    "env2": "^2.1.0",
     "hapi": "^13.5.0",
-    "inert": "^4.0.1"
+    "inert": "^4.0.1",
+    "pg": "^6.0.3"
   },
   "repository": {
     "type": "git",
