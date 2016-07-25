@@ -31,3 +31,18 @@ function updateFilms() {
 }
 
 updateFilms();
+
+var filmClicked = false;
+document.getElementsByClassName('filmContainer')[0].addEventListener('click', function() {
+    if (filmClicked) {
+        document.getElementsByClassName('darken')[0].style.width = '100%';
+        document.getElementsByClassName('filmTitle')[0].style.top = '5%';
+        document.getElementsByClassName('summary')[0].style.top = '15%';
+        filmClicked = false;
+    } else {
+        document.getElementsByClassName('darken')[0].style.width = '0';
+        document.getElementsByClassName('filmTitle')[0].style.top = '65%';
+        document.getElementsByClassName('summary')[0].style.top = '75%';
+        filmClicked = true;
+    }
+})

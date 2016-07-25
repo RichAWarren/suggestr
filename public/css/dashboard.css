@@ -56,3 +56,9 @@ p {
     position: absolute;
     top: 75%;
 }
+
+.darken {
+    background-color: rgba(0,0,0,0.7);
+    width: 0;
+    height: 100%;
+}
