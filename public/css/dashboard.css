@@ -38,7 +38,7 @@ p {
     font-family: Roboto, sans-serif;
     font-size: 13px;
     text-align: center;
-    font-weight: 200;
+    font-weight: 300;
     z-index: 999;
     width: 90%;
     margin-left: 5%;
@@ -48,7 +48,7 @@ p {
 .filmTitle {
     position: absolute;
     top: 65%;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 13px;
     -webkit-transition: -webkit-transform 0.5s; /* Safari */
     transition: transform 0.5s;
