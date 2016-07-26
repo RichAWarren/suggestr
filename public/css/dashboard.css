@@ -50,11 +50,14 @@ p {
     top: 65%;
     font-weight: 400;
     font-size: 13px;
+    -webkit-transition: -webkit-transform 0.5s; /* Safari */
+    transition: transform 0.5s;
 }
 
 .summary {
     position: absolute;
-    top: 75%;
+    display: none;
+    top: 15%;
 }
 
 .darken {
