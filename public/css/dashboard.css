@@ -97,7 +97,9 @@ p {
 }
 
 .scoreBottom {
-    font-family: 'LobsterRegular';
+    font-family: Roboto;
+    font-weight: bold;
+    font-style: italic;
     color: white;
     position: absolute;
     right: 2%;
@@ -106,7 +108,9 @@ p {
 }
 
 .scoreTop {
-    font-family: 'LobsterRegular';
+    font-weight: bold;
+    font-style: italic;
+    font-family: Roboto;
     color: white;
     position: absolute;
     right: 7%;
