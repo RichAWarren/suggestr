@@ -32,10 +32,6 @@ function updateFilms() {
 
 updateFilms();
 
-document.getElementsByClassName('recButton')[0].addEventListener('click', function(event) {
-    event.stopPropagation();
-})
-
 document.getElementsByClassName('saveButton')[0].addEventListener('click', function(event) {
     event.stopPropagation();
 })
