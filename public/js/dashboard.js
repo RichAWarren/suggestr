@@ -33,7 +33,7 @@ function updateFilms() {
 updateFilms();
 
 var filmClicked = false;
-document.getElementsByClassName('filmContainer')[0].addEventListener('click', function() {
+document.getElementsByClassName('summary')[0].addEventListener('click', function() {
     if (filmClicked) {
         document.getElementsByClassName('darken')[0].style.opacity = '0';
         document.getElementsByClassName('filmTitle')[0].style.transform = 'translate(0,0)';
