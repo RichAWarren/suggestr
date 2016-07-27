@@ -35,15 +35,15 @@ updateFilms();
 var filmClicked = false;
 document.getElementsByClassName('filmContainer')[0].addEventListener('click', function() {
     if (filmClicked) {
-        document.getElementsByClassName('darken')[0].style.width = '100%';
+        document.getElementsByClassName('darken')[0].style.opacity = '0';
         document.getElementsByClassName('filmTitle')[0].style.transform = 'translate(0,0)';
-        document.getElementsByClassName('summary')[0].style.display = 'none';
+        document.getElementsByClassName('summary')[0].style.opacity = '0';
         // document.getElementsByClassName('summary')[0].classList.add('animated', 'fadeOutDown');
         filmClicked = false;
     } else {
-        document.getElementsByClassName('darken')[0].style.width = '100%';
+        document.getElementsByClassName('darken')[0].style.opacity = '1';
         document.getElementsByClassName('filmTitle')[0].style.transform = 'translate(0,' + (document.getElementsByClassName('filmContainer')[0].clientHeight * -0.6) + 'px)';
-        document.getElementsByClassName('summary')[0].style.display = 'block';
+        document.getElementsByClassName('summary')[0].style.opacity = '1';
         // document.getElementsByClassName('summary')[0].classList.add('animated', 'fadeInUp');
         // document.getElementsByClassName('filmTitle')[0].classList.add('animated', 'fadeInUp');
 
